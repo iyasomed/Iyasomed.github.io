@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -63,7 +62,7 @@
 </nav>
 </header>
 
-<div class="container">
+    <div class="container">
         <aside class="toc">
             <h3>Table of Contents</h3>
             <a href="#global-reach">Global Reach with Local Commitment</a>
@@ -139,10 +138,21 @@
             <h2 id="conclusion">Conclusion</h2>
             <p>As an <strong>international wheelchair supplier</strong>, Chongqing Iyasocare Medical Co., Ltd. combines certified quality, diverse product offerings, and a global outlook. For distributors, healthcare providers, and end-users seeking reliable wheelchair products backed by international certifications and professional support, Iyasocare is the partner of choice.</p>
         </article>
-</div>
+    </div>
 
-<div id="backToTop" onclick="window.scrollTo({ top:0, behavior:'smooth' });">&#8679;</div>
+    <div id="backToTop" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">&#8679;</div>
 <footer>&copy; 2025 Chongqing Iyasocare Medical Co., Ltd. All rights reserved.</footer>
 <script src="../assets/js/script.js"></script>
+    <script>
+        // Show back-to-top button on scroll
+        const backToTop = document.getElementById('backToTop');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTop.style.display = 'block';
+            } else {
+                backToTop.style.display = 'none';
+            }
+        });
+    </script>
 </body>
 </html>
