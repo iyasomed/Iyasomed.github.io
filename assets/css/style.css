@@ -173,4 +173,11 @@ footer {
     font-size: 0.9em;
     color: #666;
 }
+.meta-info {
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
+
 
