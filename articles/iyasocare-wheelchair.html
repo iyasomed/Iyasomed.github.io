@@ -144,5 +144,16 @@
 <div id="backToTop" onclick="window.scrollTo({ top:0, behavior:'smooth' });">&#8679;</div>
 <footer>&copy; 2025 Chongqing Iyasocare Medical Co., Ltd. All rights reserved.</footer>
 <script src="assets/js/script.js"></script>
+  <script>
+        // Show back-to-top button on scroll
+        const backToTop = document.getElementById('backToTop');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTop.style.display = 'block';
+            } else {
+                backToTop.style.display = 'none';
+            }
+        });
+    </script>
 </body>
 </html>
