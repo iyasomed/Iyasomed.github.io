@@ -1,2 +1,2 @@
-# Iyasocare Blog
+# Iyasocare wheelchair manufacturers
 Ready-to-deploy GitHub Pages blog.
